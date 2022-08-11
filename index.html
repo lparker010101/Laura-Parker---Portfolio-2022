@@ -21,7 +21,8 @@
     <section class="profile">
         <div class="img-container">
             <div id="headshot">
-                <img src="./assets/LauraParker-smallest.jpg" alt="Laura Parker's Photo">
+                <img src="./assets/LauraParker-smallest.jpg" 
+                alt="Laura Parker's Photo">
             </div>
         </div>
         <div class="profile-body">
@@ -32,22 +33,23 @@
                         src="./assets/linkedin.png" alt="LinkedIn"></a>
                 <a href="https://github.com/lparker010101"><i class="..."></i><img src="./assets/github.png" alt="Github"></a>
             </div>
-        </div>
-        <div class="actions">
-            <a class="btn btn-light btn-lg" role="button" href="./assets/Resume - Laura Parker.pdf"
+            <div class="actions">
+                <a class="btn btn-light btn-lg" role="button" href="./assets/Resume - Parker 2022.pdf"
                 download="Resume.pdf" target="_blank">Download Resume</a>
+            </div>
         </div>
     </section>
 
     <section class="main">
         <section class="asset split about" id="about-section">
-            <p class="title section-item"><span>About</span> me</p>
+            <p class="title section-item"><span>About Me</span></p>
             <div class="asset-body">
                 <div class="section-item" data-aos="fade-left" data-aos-duration="2000">
                     <h2>Hello!</h2>
-                    <br>
                     <p>
-                    I am Laura, a software developer passionate about using technology.  I develop web applications using C#, HTML, CSS, SQL, ASP.NET, and Git. 
+                    I'm 
+                    <span id="nameFlair">Laura</span>
+                    , a software developer passionate about using technology.  I develop web applications using C#, HTML, CSS, SQL, ASP.NET, and Git.
                     <br>
                     <br>
                     My journey in becoming a developer goes back to when I taught as an English as a Second Language (ESL) teacher.  I eagerly sought out technologies to maximize learning outcomes, increase engagement, and provide meaningful learning opportunities.  This sparked a desire in me to learn software development and to transition into a technology role.  
@@ -70,7 +72,7 @@
                             My Github and LinkedIn are also available if you prefer to send a message there.  
                             <br>
                             <br>
-                            I am excited about hearing from you!
+                            I look forward hearing from you!
                         </label>
                     </div>
 
@@ -79,23 +81,21 @@
                             <div class="container contactInfo" id="section3">
                                 <h2 class="display-none">Contact Info</h2>
                                 <form action="https://formspree.io/f/xwkagrze" method="POST">
-                                    <input type="text" name="name" placeholder="Full Name">
+                                    <input class="contact" type="text" name="name" placeholder="Full Name">
                                     <br>
-                                    <input type="email" name="_replyto" placeholder="Email">
+                                    <input class="contact" type="email" name="_replyto" placeholder="Email">
                                     <br>
-                                    <input type="phoneNumber" name="phone" placeholder="Phone Number">
+                                    <input class="contact" type="phoneNumber" name="phone" placeholder="Phone Number">
                                     <br>
-                                    <input type="subject" name="subject" placeholder="Subject">
+                                    <input class="contact" type="subject" name="subject" placeholder="Subject">
                                     <br>
-                                    <input type="text" name="message" placeholder="Message Here"></input>
+                                    <input id="messageBox" type="text" name="message" placeholder="Message Here"></input>
                                     <br>
-                                    <input type="submit" value="Send" id="submit">
+                                    <input class="contact" type="submit" value="Send" id="submit">
                                 </form>
                             </div>
                         </section>
                     </section>
-                </div>
-            </div>
         </section>
 
         <section class="asset">
@@ -186,35 +186,20 @@
                     <p class="title">WORK EXPERIENCE</p>
                     <div class="section-sub-item">
                         <div class="section-sub-item">
-                            <p class="item-name">Elementary Teacher</p>
-                            <p class="time">2008-2013</p>
-                            <p class="additional-info">Polk County Schools | Bartow, FL</p>
+                            <p class="item-name">Career Services Advisor</p>
+                            <p class="time">January 2022 - Present</p>
+                            <p class="additional-info">Eleven Fifty Academy | Indianapolis, IN</p>
                             <p class="description">
                             <ul>
-                                <li>• Created and implemented lesson plans based on Florida State Standards.</li>
-                                <li>• Implemented the PBIS system. </li>
-                                <li>• Administered assessments; used assessments for data-driven instruction.</li>
-                                <li>• Maximized student learning outcomes; used integrating technology </li>
-                                <li>• Facilitated a Vertical team focused on the achievements and academic needs of
-                                    students.</li>
-                                <li>• Participated in PTA meetings </li>
-                                <li>• Trained educators on the standards-based achievement reports; used to analyze
-                                    students’ progress.</li>
-                                <li>• Supported team as the grade level chairperson for two years.</li>
-                            </ul>
-                            </p>
-                        </div>
-                        <div class="section-sub-item">
-                            <p class="item-name">Special Education: Instructional Assistant </p>
-                            <p class="time">2006-2008</p>
-                            <p class="additional-info">Hamilton Southeastern Schools | Fishers, IN</p>
-                            <p class="description">
-                            <ul>
-                                <li>• Worked with students who had autism, sensory integration dysfunction, and learning
-                                    disabilities. </li>
-                                <li>• Instructed first grade guided reading at Durbin, Recipient of 2007 Indiana Reading
-                                    Award. </li>
-                                <li>• Instructed first and second grade math intervention groups.</li>
+                                <li>• Maintain, analyze, and utilize documentation in Salesforce CRM</li>
+                                <li>• Coordinate all necessary resources to enable the department to operate efficiently and effectively
+                                </li>
+                                <li>• Collect, track, and analyze data received from students, graduates, instructors, employer partners,
+                                    and staff</li>
+                                <li>• Demonstrate an urgency to reach goals and achieve desirable outcomes</li>
+                                <li>• Provide professional and career development to students, alumni, and staff</li>
+                                <li>• Conduct job readiness workshops for students, alumni, and staff</li>
+                                <li>• Participate in networking events to establish new connections and career opportunities</li>
                             </ul>
                             </p>
                         </div>
@@ -224,37 +209,29 @@
                         <p class="item-name">MSD of Warren Township Schools | Indianapolis, IN</p>
                         <p class="description">
                         <ul>
-                            <li>• Integrated technology to maximize student learning outcomes</li>
-                            <li>• Created and implemented lesson plans based on Indiana State Standards and WIDA Standards
+                            <li>• Researched and incorporated multiple learning technologies to maximize student learning outcomes</li>
+                            <li>• Organized English as a Second Language data, monitored processes, and utilized resources using Ellevation
                             </li>
-                            <li>• Utilized effective instructional strategies and WIDA Model Performance Indicators
+                            <li>•Integrated technology into lesson plans aligned to Indiana State Standards and WIDA Standards
                             </li>
-                            <li>• Administered WIDA, IREAD, ILEARN, and NWEA; used assessments for data-driven instruction
+                            <li>• Administered WIDA, IREAD, ILEARN, and NWEA assessments and gathered data to drive instruction
                             </li>
-                            <li>• Provided ESL related professional development to colleagues and administrators </li>
-                            <li>• Participated in RTI meetings, IEP conferences, Wellness committee, Parents are the
-                                CORE, school events, school improvement meetings, academic camp, and Warren’s WIDA
-                                cadre </li>
-                            <li>• Facilitated ILP committee meetings, Vertical Team meetings, and the Latino Literacy
-                                Project </li>
+                            <li>• Provided English as a Second Language (ESL) professional development at the school and district levels
+                            </li>
+                            <li>• Facilitated Individualized Learning Plan (ILP) meetings, Vertical Team meetings, and the Latino Literacy
+                                Project</li>
                         </ul>
                         </p>
                     </div>
                     
                     <div class="section-sub-item">
-                        <p class="item-name">Related Professional Experience</p>
+                        <p class="item-name">Volunteer Experience</p>
 
-                        <p class="time">2018</p>
                         <p class="additional-info">Instructor | Latino Literacy Project | MSD of Warren Township Schools
                             | Indianapolis, IN</p>
 
-                        <p class="time">2012</p>
-                        <p class="additional-info">Tutor | A+ TUTOR U | Mulberry, FL</p>
-
-                        <p class="time">2005</p>
                         <p class="additional-info">Instructor | Young Scholars Program | IUPUI | Indianapolis, IN</p>
 
-                        <p class="time">2003</p>
                         <p class="additional-info">Mentor | College Preparatory Initiatives Program | IUPUI |
                             Indianapolis, IN</p>
                     </div>
@@ -262,30 +239,29 @@
                     <div class="section-item">
                         <p class="title">EDUCATION</p>
                         <p class="item-name">Software Development Certification</p>
-                        <p class="time">2021 - 2021</p>
+                        <p class="time">November 2021</p>
                         <p class="item-name">Eleven Fifty Academy</p>
-                        <p class="additional-info">Remote-Indianapolis, IN</p>
+                        <p class="additional-info">Indianapolis, IN</p>
                         <p class="description">Immersive learning program for Software Development taught with
                             industry-guided curriculum, real-world project-based learning, and 500+ hours of logged
                             coding time and training.</p>
-                    </div>
-                    <div class="section-sub-item">
-                        <p class="item-name">Indianapolis University - Purdue University of Indianapolis</p>
-                        <p class="time">2000-2005</p>
+                        </div>
+                        <div class="section-sub-item">
+                            <p class="item-name">Microsoft Software Development Certification</p>
+                            <p class="time"> December 2021</p>
+                            <p class="additional-info">Indianapolis, IN</p>
+                        </div>
+                        <div class="section-sub-item">
+                        <p class="item-name">Indianapolis University - Purdue University of Indianapolis | </p>
                         <p class="item-name">Bachelor of Science Degree in Elementary Education | Minor in English as a
                             Second Language (ESL)</p>
-                        <p class="additional-info">Indianapolis, IN</p>
-                    </div>
-                    <div class="section-sub-item">
-                        <p class="item-name">Microsoft Software Development Certification - Coming Soon</p>
-                        <p class="time">2021</p>
                         <p class="additional-info">Indianapolis, IN</p>
                     </div>
                 </div>
         </section>
 
         <section class="asset" id="projects-section">
-            <p class="title section-item"><span>Recent</span> Projects</p>
+            <p class="title section-item"><span>Recent Projects</span></p>
             <div class="asset-body grid">
 
             <div class="project-item">
@@ -354,7 +330,6 @@
             </footer>
         </section>
     </section>
-
 
     <script>
         var aboutSection = document.getElementById("about-section");
